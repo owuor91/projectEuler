@@ -8,11 +8,10 @@ def palnom
 		end
 
 	arr.each do |i|
-		for n in 100..999 do
+		arr.each do |n|
 			prod = i*n
 			prodarr<<prod
 		end
-		
 	end	
 
  	prodarr.each do |nom|
